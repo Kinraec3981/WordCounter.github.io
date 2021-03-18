@@ -1,6 +1,6 @@
 .header{
 
-	height: 160px;
+	height:12vw;
 	text-align: center;
 	animation-name: an;
 	animation-duration: 1s;
@@ -36,7 +36,7 @@
 }.about{
 	text-align: justify;
 	margin-left: 50px;
-	font-size: 3vw;
+	font-size: 30px;
 	font-family: Nunito, sans serif;
 	animation-name: move;
 	animation-duration: 1s;
