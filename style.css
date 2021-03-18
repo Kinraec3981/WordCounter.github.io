@@ -1,0 +1,79 @@
+.header{
+
+	height: 160px;
+	text-align: center;
+	animation-name: an;
+	animation-duration: 1s;
+	padding-top: 40px;
+	background: #0000FF;
+	font-size: 10vw;
+	border-radius: 0% 0% 100% 100%;
+}*{
+	padding: 0;
+	margin: 0px;
+}@keyframes an{
+	0%{
+		
+		position: relative;
+		top: -160px;
+
+	}50%{
+		
+		position: relative;
+		top: 0px;
+	}
+}body{
+	background: #add8e6;
+	
+
+}.mar{
+	margin-top: 40px;
+	font-size: 50px;
+	animation-name: move;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
+
+}.about{
+	text-align: justify;
+	margin-left: 50px;
+	font-size: 3vw;
+	font-family: Nunito, sans serif;
+	animation-name: move;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
+	margin-right: 50px;
+}@keyframes move{
+	0%{
+		position: relative;
+		left: -200px;
+	}33%{
+		position: relative;
+		left: 50px;
+	}66%{
+		position: relative;
+		left: 0px;
+	}
+}.download{
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	background: #32CD32;
+	animation-name: bubble;
+	animation-duration: 1s;
+	animation-delay: 0.2s;
+	border-radius: 50%;
+	margin-top: 10px;
+	font-size: 20px;
+	border: 2px black solid;
+}.center{
+	text-align: center;
+}@keyframes bubble{
+	0%{
+		width: 50px;
+		height: 50px;
+
+	}50%{
+		width: 400px;
+		height: 400px;
+	}
+}
